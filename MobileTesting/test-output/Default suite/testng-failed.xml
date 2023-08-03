@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.cts.Employee">
+        <methods>
+          <include name="selectBowlers"/>
+          <include name="selectCaptainAndViceCaptain"/>
+          <include name="selectBatters"/>
+          <include name="selectAllRounders"/>
+          <include name="beforeClass"/>
+          <include name="selectWicketKeepers"/>
+          <include name="joinNewContest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- org.cts.Employee -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
